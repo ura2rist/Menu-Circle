@@ -1,0 +1,62 @@
+.menu {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+}
+  
+.menu ul {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    padding: 0;
+    list-style: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.menu li {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 160px;
+    height: 160px;
+    transform-origin: 100% 100%;
+    overflow: hidden;
+}
+  
+.menu li:nth-child(1) {
+    transform: rotate(0deg) skew(30deg);
+}
+  
+.menu li:nth-child(2) {
+    transform: rotate(60deg) skew(30deg);
+}
+
+.menu li:nth-child(3) {
+    transform: rotate(120deg) skew(30deg);
+}
+
+.menu li:nth-child(4) {
+    transform: rotate(180deg) skew(30deg);
+}
+
+.menu li:nth-child(5) {
+    transform: rotate(240deg) skew(30deg);
+}
+
+.menu li:nth-child(6) {
+    transform: rotate(300deg) skew(30deg);
+}
+  
+.menu li a {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 0;
+    background: rgba(241, 196, 15, 0.5) url("") no-repeat 50% 40%;
+    transform: skew(-30deg) rotate(-60deg);
+}
